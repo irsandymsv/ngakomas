@@ -1,0 +1,102 @@
+  body{
+    margin: 0;
+  }
+  .col-md-2{
+    background-color: rgb(230,230,230);
+    padding: 0;
+    position: sticky;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+  }
+
+  .sidebar{
+    /*position: sticky;*/
+    /*top: 0;*/
+    padding: 10px;
+    padding-left: 0;
+    /*padding-left: 30px;*/
+    /*padding-top: 50px;*/
+    text-align: center;
+    margin-top: 10px;
+    /*min-height: 635px;*/
+  }
+
+  .sidebar a{
+    margin-top: 20px;
+    display: block;
+    background-color: rgba(255, 214, 51, 0.3);
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    /*transition: 0.3s;*/
+  }
+
+  .sidebar a:hover{
+    /*background-color: #555;*/
+    background-color: rgba(255, 214, 51, 0.9);
+    color: black;
+  }
+
+  .sidebar a.active{
+    background-color: rgba(255, 214, 51, 0.9);
+    color: black;
+  }
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left; font-size: 18px;}
+    div.col-md-10 {margin-left: 0;}
+  }
+
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+      font-size: 16px;
+    }
+  }
+
+  .user{
+    margin-top: 30px;
+  }
+
+  .col-md-10{
+    padding: 50px;
+    padding-top: 30px;
+    background-color: rgb(16, 39, 60);
+    min-height: 657px;
+    /*padding-bottom: 0%;*/
+    /*margin-bottom: -0%;*/
+  }
+
+  .foto{
+    padding-top: 25px;
+    text-align: center;
+  }
+
+  .foto img{
+    width: 120px;
+    border-radius: 50%;
+  }
+
+  .isi{
+    padding: 30px;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .badge{
+    background-color: rgb(0, 170, 0);
+    font-size: 14px;
+    margin-right: 5px;
+  }

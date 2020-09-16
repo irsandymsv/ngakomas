@@ -1,0 +1,106 @@
+  body{
+    margin: 0;
+  }
+  .col-md-2{
+    background-color: rgb(230,230,230);
+    padding: 0;
+    position: sticky;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+  }
+
+  .sidebar{
+    /*margin-top: 30px;*/
+    /*position: sticky;*/
+    /*top: 0;*/
+    padding: 10px;
+    padding-right: 0;
+    /*padding-left: 30px;*/
+    text-align: center;
+    margin-top: 10px;
+    /*min-height: 460px;*/
+    
+  }
+
+  .sidebar a{
+    margin-top: 15px;
+    display: block;
+    background-color: rgb(210,210,210);
+    /*background-color: rgba(50,50,50, 0.1);*/
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .sidebar a:hover{
+    /*background-color: #555;*/
+    background-color: rgb(50,50,50);
+    color: white;
+  }
+
+  .sidebar a.active{
+    background-color: #555;
+    color: white;
+  }
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left; font-size: 18px;}
+    div.col-md-10 {margin-left: 0;}
+  }
+
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+      font-size: 16px;
+    }
+  }
+
+  .col-md-10{
+    padding: 50px;
+    padding-top: 30px;
+    background-color: rgb(50,50,50);
+    min-height: 657px;
+    /*padding-bottom: 100%;
+    margin-bottom: -100%;*/
+  }
+
+  .foto{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .foto img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .isi{
+    padding: 30px;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .badge{
+    background-color: rgb(0, 170, 0);
+    font-size: 14px;
+  }
